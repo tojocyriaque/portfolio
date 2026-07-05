@@ -11,6 +11,15 @@ npm run dev
 
 Open http://localhost:3000.
 
+## GitHub Pages deployment
+
+The repository includes a GitHub Actions workflow in [.github/workflows/deploy.yml](.github/workflows/deploy.yml) that builds and deploys the app to GitHub Pages on every push to the main branch.
+
+To enable deployment in GitHub:
+1. Open your repository settings.
+2. Go to Pages.
+3. Set Source to GitHub Actions.
+
 ## Add new content
 
 - Projects: edit [data/content.ts](data/content.ts)
